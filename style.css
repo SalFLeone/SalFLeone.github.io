@@ -1,0 +1,65 @@
+body {
+    font-family: 'Helvetica';
+    font-size: 1vh;
+    background: url('background2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: darkgray;
+  }
+
+  #div1{
+    margin: auto;
+    margin-top: 10em;
+    text-align: center;
+    width: 40em;
+    height: 50em;
+    background-color: rgba(245, 245, 245, .85);
+    border-radius: 2em;
+    border-style: solid;
+    border-width: .5em;
+    border-color: grey;
+  }
+
+  /* #div2{
+    margin: auto;
+    text-align: center;
+    border-style: solid;
+    border-radius: 50%;
+    width: 20em;
+    height: 20em;
+    border-width: .25em;
+    border-color: rgb(184, 190, 195);
+    background-color: whitesmoke;
+  } */
+
+  #name{
+    font-size: 3em;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    
+  }
+
+  img{
+    text-align: center;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: .25em;
+    background-color: whitesmoke;
+    border-color:grey;
+    width: 20em;
+    height: 20em;
+  }
+
+  #resume{
+    font-size: 1.5em;
+    padding-top: 7%;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+div.scroll{
+    overflow-x: scroll;
+}
